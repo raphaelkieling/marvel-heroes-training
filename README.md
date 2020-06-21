@@ -1,24 +1,3 @@
 # marvel-heroes-training
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+https://www.figma.com/file/GcLF58hwUKTl83B9NY4HqK/Marvel-Heroes-(Community)?node-id=2088%3A1821

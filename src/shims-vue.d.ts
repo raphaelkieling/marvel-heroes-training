@@ -1,5 +1,6 @@
 declare module '*.vue' {
-  import Vue from 'vue';
+  import { Component } from 'vue';
 
-  export default Vue;
+  const component: Component;
+  export default component;
 }
