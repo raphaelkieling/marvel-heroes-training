@@ -2,10 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 @font-face {
-    font-family: 'Gilroy';
-    src: url('./fonts/gilroy-medium.ttf')
+    font-family: 'Gilroy-Heavy';
+    src: url('./fonts/gilroy-heavy.ttf')
 }
 
-body {
-    font-family: 'Gilroy', 'Arial', sans-serif;
+@font-face {
+    font-family: 'Gilroy-SemiBold';
+    src: url('./fonts/gilroy-semibold.ttf')
+}
+
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/gilroy-bold.ttf')
+}
+
+.font-heavy {
+    font-family: 'Gilroy-Heavy', 'Arial', sans-serif;
+}
+
+.font-bold {
+    font-family: 'Gilroy-Bold', 'Arial', sans-serif;
+}
+
+.font-semibold {
+    font-family: 'Gilroy-SemiBold', 'Arial', sans-serif;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 24px;
 }
